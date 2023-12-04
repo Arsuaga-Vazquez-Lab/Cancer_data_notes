@@ -28,4 +28,4 @@ readr::write_tsv(data, output_path)
 ```
 
 ## The Pan-Cancer Analysis of Whole Genomes [(PCAWG)](https://dcc.icgc.org/pcawg)
-International collaboration to identify common patterns of mutation in more than 2,600 cancer whole genomes from the International Cancer Genome Consortium (ICGC). This dataset includes the data from TCGA.  PCAWG provides copy number, structural variation (translocations, etc.), gene expression and methylation data for many countries. Detailed information about cancer types and available types is available in this [table](https://dcc.icgc.org/projects/details).
+International collaboration to identify common patterns of mutation in more than 2,600 cancer whole genomes from the International Cancer Genome Consortium (ICGC). PCAWG provides copy number, structural variation (translocations, etc.), gene expression and methylation data for many countries including USA (overlapping with TCGA data) . Detailed information about cancer and data types is available in this [table](https://dcc.icgc.org/projects/details).
