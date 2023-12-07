@@ -54,9 +54,9 @@ Some of the relevant columns in the file are: mutation_type, copy_number, segmen
 Mutation type: Loss, copy neutral, copy neutral LOH, gain
 Segment_mean (or median): Because it is for the whole segment it can be above or below the expected number. For instance, for a loss it can be 0 and 1 but it could also be a 2. For a neutral it could be a 2 but also a 3, for a gain it is usually 3+
 #### BRCA-FR
-Eventhough there is a file for **copy number**, "mutation type" has been recorded as **"undetermined"** for all patients and segment_mean is missing. Since vital_status has only 2 deceased (from a total of 72) **survival analysis will not be useful**
+Eventhough there is a file for **copy number**, "mutation type" has been recorded as **"undetermined"** for all patients and segment_mean is missing. Since vital_status has only 2 deceased (from a total of 72) **survival analysis will not be useful**. Only two additional patients with recurrence (disease_status_last_followup).
 #### BRCA-EU
-The name of the dataset is "Breast ER+ and HER2-" Which can be associated to **Luminal** (and normal-like?) breast cancer subtype. **Survival info is incomplete:** Vital_status is available but information about donor_survival_time and donor_interval_of_last_followup is missing. Only two additional patients with recurrence
+The name of the dataset is "Breast ER+ and HER2-" Which can be associated to **Luminal** (and normal-like?) breast cancer subtype. **Survival info is incomplete:** Vital_status is available but information about donor_survival_time and donor_interval_of_last_followup is missing. Recurrence information is also missing (disease_status_last_followup)
 + Within the same chromosome, there will be multiple entries with the same start-end for the segment (chromosome_start, chromosome_end) but associated to a different gene (gene_affected). It looks like this for the same donor/sample and at chromosome 1:
     
 mutation_type |	segment_mean | chromosome_start | chromosome_end | gene_affected
