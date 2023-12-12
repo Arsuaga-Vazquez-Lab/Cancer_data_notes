@@ -2,7 +2,7 @@
 There are multiple cancer datasets and accessing them can be daunting. Here we provide some useful information that may help to better navigate the platforms.  
 
 ## The Cancer Genome Atlas [(TCGA)](https://www.cancer.gov/ccg/research/genome-sequencing/tcga)
-Clinical, biospecimen, molecular characterization, and imaging data for samples from 11,000 patients (USA) spanning [33 cancer types](https://www.cancer.gov/ccg/research/genome-sequencing/tcga/studied-cancers). Including Breast Cancer (TCGA-BRCA) with 1000+ patients. Depending on how you download the data, the primary-keys (or identifiers) linking the different data types might be different and some-times missing.
+Clinical, biospecimen, molecular characterization, and imaging data for samples from 11,000 patients (USA) spanning [33 cancer types](https://www.cancer.gov/ccg/research/genome-sequencing/tcga/studied-cancers). Including Breast Cancer (TCGA-BRCA) with 1097 patients with 104 marked with deceased vital status. Recurrence information is not available. Depending on how you download the data, the primary-keys (or identifiers) linking the different data types might be different and some-times missing.
 + [GDC data portal](https://portal.gdc.cancer.gov/): By filtering and selecting different options it is possible to download many different data types. Downloading the clinical data directly from the portal will produce a zip file with 5 different files (clinical.tsv, exposure.tsv, family_history.tsv, follow_up.tsv, pathology_detail.tsv). The file clinical.tsv contains **survival information**, and other fields, together with basic information such as gender, age, race and ethnicity. There are two primary-key IDs in this file: **case_id** (016caf42-4e19-4444-ab5d-6cf1e76c4afa) and	**case_submitter_id** (TCGA-AO-A128)
 + [TCGAbioLinks](https://bioconductor.org/packages/release/bioc/html/TCGAbiolinks.html)
 This is a Bioconductor package (R language) that facilitates data retrieval. It also allows to document and automate the process. This process will keep **case_submitter_id** (TCGA-AO-A128), but **case_id** will not be included
@@ -51,8 +51,8 @@ It consists of 6 different files (see below). When downloading the clinical data
 + Array-based: icgc_donor_id, project_code, icgc_specimen_id, icgc_sample_id, submitted_sample_id, analysis_id, gene_model, **gene_id**, **normalized_expression_value**, fold_change, **platform, experimental_protocol**, normalization_algorithm, other_analysis_algorithm, raw_data_repository, raw_data_accession, reference_sample_type
 ### Copy number data (CNSM)
 Some of the relevant columns in the file are: mutation_type, copy_number, segment_mean, chromosome, chromosome_start, chromosome_end, gene_affected.
-Mutation type: Loss, copy neutral, copy neutral LOH, gain
-Segment_mean (or median): Because it is for the whole segment it can be above or below the expected number. For instance, for a loss it can be 0 and 1 but it could also be a 2. For a neutral it could be a 2 but also a 3, for a gain it is usually 3+
++ Mutation type: Loss, copy neutral, copy neutral LOH, gain  
++ Segment_mean (or median): Because it is for the whole segment, it can be above or below the expected number. For instance, for a loss it can be 0 and 1; but it could also be a 2. For a neutral it could be a 2; but also a 3. For a gain it is usually 3+
 #### BRCA-FR (France)
 Eventhough there is a file for **copy number**, "mutation type" has been recorded as **"undetermined"** for all patients and segment_mean is missing. Since vital_status has only 2 deceased (from a total of 72) **survival analysis will not be useful**. Only two additional patients with recurrence (disease_status_last_followup).
 #### BRCA-EU (European Union and UK)
