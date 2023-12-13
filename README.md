@@ -66,3 +66,6 @@ loss	| 1 | 75144668	| 104573697 | ENSG00000162692
 
 #### BRCA-KR (South Korea)
 Despite that the dataset is from very young women (25 to 35 years old), **10 out of 50 died** (3 of them after going into complete remission). 10 of 50 **relapsed** and 3 of them have a status of alive. Follow-up of 1 to 15 years.
+
+## Kaplan-Meier plotter tool [(km-plot)](https://kmplot.com/analysis/)
+This is an online tool that allows you to make multiple analysis on a huge number of cancer datasets. You will be able to filter the data to select the cohort of your interest. This tools is an excellent resource to locate datasets for a specific clinical profile. In this [image](https://github.com/Arsuaga-Vazquez-Lab/Cancer_data_notes/blob/main/gyorffy_2021_survival_55_BRCA_sets_table1.pdf) you will find details about 55 different breast cancer datasets especifying sample sizes, survival, recurrence and molecular subtype.Use the dataset name to locate the data within the Gene Expression Omnibus (GEO) or the European Bioinformatics Institute (EMBL-EBI)
