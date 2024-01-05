@@ -69,3 +69,6 @@ Despite that the dataset is from very young women (25 to 35 years old), **10 out
 
 ## Kaplan-Meier plotter tool [(km-plot)](https://kmplot.com/analysis/)
 This is an online tool that allows you to make multiple analysis on a huge number of cancer datasets. You will be able to filter the data to select the cohort of your interest. This tools is an excellent resource to locate datasets for a specific clinical profile. At [Gyorffy 2021](https://pubmed.ncbi.nlm.nih.gov/34527184/) you will find this [table](https://github.com/Arsuaga-Vazquez-Lab/Cancer_data_notes/blob/main/gyorffy_2021_survival_55_BRCA_sets_table1.pdf) with details about 55 different breast cancer datasets especifying sample sizes, survival (Mostly overall survival and metastasis-free survival. Vital_status is often missing), recurrence and molecular subtype.Use the dataset name to locate the data within the Gene Expression Omnibus (GEO) or the European Bioinformatics Institute (EMBL-EBI).
+
+## Molecular Taxonomy of Breast Cancer International Consortium [METABRIC](https://www.cbioportal.org/study/summary?id=brca_metabric)
+Masato: Please add here all relevant information to our group about this dataset. I added a link (above). If you think another is better, feel free to change it. Make sure to use a similar markdown format as it was used above. Thanks.
