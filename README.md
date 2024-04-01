@@ -74,5 +74,10 @@ This is an online tool that allows you to make multiple analysis on a huge numbe
 
 ## Molecular Taxonomy of Breast Cancer International Consortium [(METABRIC)](https://www.cbioportal.org/study/summary?id=brca_metabric)
 METABRIC dataset contains gene expression, copy number alteration (CNA), single nucleotide polymorphism (SNP), and clinical data for 2000 tumors. The publically available version of the METABRIC dataset, which includes 1961 breast tumors and 548 matched normals, can be obtained from the cBioPortal link above. In the dataset, the tumors are classified into molecular subtypes using PAM50 plus Claudine-low genomic classification. The dataset includes 209 basal-like, 218 claudin-low, 224 Her2,700 Luminal A, 475 Luminal B, and 148 normal-like tumors, according to their classification (definition of subtypes and categorization results varies depending on classification methods; see below for further discussion regarding the classification methods).
+
+## Human Breast Cell Atlas [(HBCA and iHBCA processed data)](https://cellxgene.cziscience.com/collections/48259aa8-f168-4bf5-b797-af8e88da6637)
+Details about these datasets are available at [Reed at al., 2024](https://www.nature.com/articles/s41588-024-01688-9). Raw data will, eventually, be available here: [E-MTAB-13664](http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-13664/)
++ **HBCA:** [et al., 2024] made public data from single cell RNA sequencing to compile a human breast cell atlas (HBCA) assembled from 55 donors that had undergone reduction mammoplasties or risk reduction mastectomies.
++ **iHBCA:** Data from six of the largest scRNA-seq studies of the healthy breast. The iHBCA includes both fresh and frozen tissue prepared using a range of different protocols across multiple labs totaling 2.1 million cells from 286 individuals. 
 ## Melecular Classification of Breast Cancer
 ## Survival Analysis in R
