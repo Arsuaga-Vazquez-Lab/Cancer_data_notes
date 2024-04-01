@@ -78,6 +78,7 @@ METABRIC dataset contains gene expression, copy number alteration (CNA), single 
 ## Human Breast Cell Atlas [(HBCA and iHBCA processed data)](https://cellxgene.cziscience.com/collections/48259aa8-f168-4bf5-b797-af8e88da6637)
 Details about these datasets are available at [Reed at al., 2024](https://www.nature.com/articles/s41588-024-01688-9). Raw data will, eventually, be available here: [E-MTAB-13664](http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-13664/)
 + **HBCA:** [et al., 2024] made public data from single cell RNA sequencing to compile a human breast cell atlas (HBCA) assembled from 55 donors that had undergone reduction mammoplasties or risk reduction mastectomies.
-+ **iHBCA:** Data from six of the largest scRNA-seq studies of the healthy breast. The iHBCA includes both fresh and frozen tissue prepared using a range of different protocols across multiple labs totaling 2.1 million cells from 286 individuals. 
++ **iHBCA:** Data from six of the largest scRNA-seq studies of the healthy breast. The iHBCA includes both fresh and frozen tissue prepared using a range of different protocols across multiple labs totaling 2.1 million cells from 286 individuals.
+  
 ## Melecular Classification of Breast Cancer
 ## Survival Analysis in R
