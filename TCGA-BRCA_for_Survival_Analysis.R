@@ -1,3 +1,4 @@
+
 ############For The First Time Only; Please install the libraries###############
 if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
@@ -76,7 +77,7 @@ brcaACNMatrix <- assay(bracaACN)
 ######The full ACN Data is in brcaACNMatrix (Many NAs at the top rows)##########
 
 
-#####################Please type the first gene name here.######################
+#####################Please type the gene name here.######################
 geneName1 <- "PURPL"
 ################################################################################
 
