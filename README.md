@@ -80,5 +80,6 @@ Details about these datasets are available at [Reed at al., 2024](https://www.na
 + **HBCA:** [et al., 2024] made public data from single cell RNA sequencing to compile a human breast cell atlas (HBCA) assembled from 55 donors that had undergone reduction mammoplasties or risk reduction mastectomies.
 + **iHBCA:** Data from six of the largest scRNA-seq studies of the healthy breast. The iHBCA includes both fresh and frozen tissue prepared using a range of different protocols across multiple labs totaling 2.1 million cells from 286 individuals.
   
-## Melecular Classification of Breast Cancer
-## Survival Analysis in R
+## Download TCGA-BRCA and Survival Analysis in R
+The TCGA-BRCA RNA-Seq and copy number variation data can be downloaded with the program "TCGA_for_Survival_Analysis.R" uploaded above in this page. 
+The R program downloads TCGA-BRCA (Gencode 36) RNA-Seq and copy number variation data from GDC using TCGAbiolinks. Users can edit the gene name and/or subset selection in a box for survival analysis. A gene name should be in the HGNC ID to correctly identify the gene. The program displays basic graphs and runs a survival analysis on the selected gene. The survival analysis identifies the optimal cut-off point that minimizes the p-value of the Log Rank Test and draws the Kaplan-Meier (KM) curve at the point. The program checks the overall trend of the difference in survival by drawing KM curves at the lower/median/upper quartile. 
